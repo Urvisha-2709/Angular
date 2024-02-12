@@ -1,0 +1,25 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+}
+
+.button-container button.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.button-container button:hover {
+  background-color: #ddd;
+}

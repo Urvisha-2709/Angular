@@ -1,0 +1,16 @@
+<p>coupon-list works!</p>
+<!-- coupon-list.component.html -->
+<table>
+  <thead>
+    <tr>
+      <th>CODE</th>
+      <th>OFF(%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let coupon of coupons">
+      <td>{{ coupon.code }}</td>
+      <td>{{ coupon.off }}</td>
+    </tr>
+  </tbody>
+</table>
